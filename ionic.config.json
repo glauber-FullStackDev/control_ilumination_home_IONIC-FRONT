@@ -1,0 +1,7 @@
+{
+  "name": "control_ilumination_home_IONIC-FRONT",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

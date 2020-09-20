@@ -1,0 +1,18 @@
+<ion-content [fullscreen]="true">
+  <div class="header">
+    <h1>Control<br>Panel</h1>
+    <div class="ctPhotoPerfil"></div>
+  </div>
+
+  <div class="ctComodos">
+    <h2>All Rooms</h2>
+
+    <div class="ctBtns">
+      <div *ngFor="let item of bntsList"  class="bnt">
+        <img src="../../assets/imgs/{{item.image}}.png" alt="">
+        <h3>{{item.title}}</h3>
+        <h4>{{item.n_lampadas}} Lights</h4>
+      </div>
+    </div>
+  </div>
+</ion-content>
